@@ -64,7 +64,7 @@ namespace CloudToDevice
                 Console.WriteLine();
                 if (Array.Exists(validChars, ch => ch.Equals(keyPressed.ToUpper())))
                     valid = true;
-
+               
             } while (!valid);
             return keyPressed;
         }

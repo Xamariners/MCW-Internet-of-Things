@@ -274,7 +274,7 @@
             this.lblSensorInfo.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSensorInfo.Location = new System.Drawing.Point(47, 615);
             this.lblSensorInfo.Name = "lblSensorInfo";
-            this.lblSensorInfo.Size = new System.Drawing.Size(0, 21);
+            this.lblSensorInfo.Size = new System.Drawing.Size(0, 28);
             this.lblSensorInfo.TabIndex = 30;
             // 
             // groupBox1
@@ -297,7 +297,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(251, 19);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 13);
+            this.label3.Size = new System.Drawing.Size(87, 19);
             this.label3.TabIndex = 36;
             this.label3.Text = "< 68 degrees";
             // 
@@ -317,7 +317,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(145, 18);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 13);
+            this.label2.Size = new System.Drawing.Size(94, 19);
             this.label2.TabIndex = 34;
             this.label2.Text = "68-72 degrees";
             // 
@@ -337,7 +337,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(39, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 13);
+            this.label1.Size = new System.Drawing.Size(87, 19);
             this.label1.TabIndex = 32;
             this.label1.Text = "> 72 degrees";
             // 
@@ -573,7 +573,7 @@
             this.lblEnrollmentKey.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEnrollmentKey.Location = new System.Drawing.Point(22, 9);
             this.lblEnrollmentKey.Name = "lblEnrollmentKey";
-            this.lblEnrollmentKey.Size = new System.Drawing.Size(243, 21);
+            this.lblEnrollmentKey.Size = new System.Drawing.Size(304, 28);
             this.lblEnrollmentKey.TabIndex = 39;
             this.lblEnrollmentKey.Text = "DPS Group Enrollment Primary Key";
             // 
@@ -584,10 +584,11 @@
             this.txtGroupEnrollmentKey.Location = new System.Drawing.Point(26, 33);
             this.txtGroupEnrollmentKey.Name = "txtGroupEnrollmentKey";
             this.txtGroupEnrollmentKey.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtGroupEnrollmentKey.Size = new System.Drawing.Size(470, 25);
+            this.txtGroupEnrollmentKey.Size = new System.Drawing.Size(470, 29);
             this.txtGroupEnrollmentKey.TabIndex = 38;
-            this.txtGroupEnrollmentKey.Text = "y049uC8uXA3lFOajcti3+EVUdbYECLjQ4pmJdna6sylPIvitW5Lsf2s1WNUenBUixvqGdK6E/Stv/9jl1" +
-    "cvjRg==";
+            this.txtGroupEnrollmentKey.Text = "FOhqkIre0TNSHC+Zagxc4u1Bya8u7Qwk6qvzoweLooMjM7cQpWDao6EMfuoTLM004Y0yjzKsumhO4TNZf" +
+    "R7GjQ==";
+            this.txtGroupEnrollmentKey.TextChanged += new System.EventHandler(this.txtGroupEnrollmentKey_TextChanged);
             // 
             // txtIdScope
             // 
@@ -596,9 +597,9 @@
             this.txtIdScope.Location = new System.Drawing.Point(26, 88);
             this.txtIdScope.Name = "txtIdScope";
             this.txtIdScope.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtIdScope.Size = new System.Drawing.Size(470, 25);
+            this.txtIdScope.Size = new System.Drawing.Size(470, 29);
             this.txtIdScope.TabIndex = 40;
-            this.txtIdScope.Text = "0ne002CBFCE";
+            this.txtIdScope.Text = "0ne003E6AAC";
             // 
             // lblIdScope
             // 
@@ -606,13 +607,13 @@
             this.lblIdScope.Font = new System.Drawing.Font("Segoe UI Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIdScope.Location = new System.Drawing.Point(22, 64);
             this.lblIdScope.Name = "lblIdScope";
-            this.lblIdScope.Size = new System.Drawing.Size(102, 21);
+            this.lblIdScope.Size = new System.Drawing.Size(125, 28);
             this.lblIdScope.TabIndex = 41;
             this.lblIdScope.Text = "DPS ID Scope";
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(766, 751);

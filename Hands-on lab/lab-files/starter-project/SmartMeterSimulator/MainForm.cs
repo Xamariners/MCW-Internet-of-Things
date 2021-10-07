@@ -1,10 +1,4 @@
-﻿using System;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Text;
 
 namespace SmartMeterSimulator
 {
@@ -48,6 +42,8 @@ namespace SmartMeterSimulator
             try
             {
                 //Loop through the building windows (Buttons)
+               
+                
                 foreach (Button button in pDevices.Controls)
                 {
                     if (button.Tag == null)
@@ -302,6 +298,11 @@ namespace SmartMeterSimulator
                 sb.AppendLine("Indicator: " + tempIndicator);
                 ttDeviceStatus.Show(sb.ToString(), button);
             }
+        }
+
+        private void txtGroupEnrollmentKey_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
